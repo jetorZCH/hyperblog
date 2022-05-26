@@ -64,6 +64,9 @@ y esta rama se conecta con la rama master a esta conexion o puente le llamamos  
 con la primer rama tambien le llamamos merge a la rama experimentos le llaman development
 
 clase 12
-git reset: sirve para volver a la version de algun de un repositorio, hay 2 tipos-
+git reset: sirve para volver a la version de algun de un repositorio. Con este comando borramos los cambios, hay 2 tipos-
 git reset --hard: Todo vuelve al estado anterior el mas comun 
 git reset --soft: volvemos a la version anterior pero lo que tengamos en staging sigue en staging
+
+git checkout: con este comando hacemos lo mismo que get reset solo que aeui no se guardan los 
+cambios y los tienes que guardan con un add 
