@@ -145,3 +145,7 @@ git log --grep=“INVIE” –i: Busca los commits que cumplan sin importar may�
 git log – index.html: Busca los commits en un archivo en específico.
 git log -S “Por contenido”: Buscar los commits con el contenido dentro del archivo.
 git log > log.txt: guardar los logs en un archivo txt
+
+clase 15 branches de git
+cuando uno crea una rama crea un branche del ultimo commit que basicamente es una copia y todos los cambios que hagamos 
+en esta rama no los vamos a ver la rama master hasta que los fucionemos con un proceso que se llama merge
