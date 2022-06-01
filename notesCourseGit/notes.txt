@@ -149,3 +149,6 @@ git log > log.txt: guardar los logs en un archivo txt
 clase 15 branches de git
 cuando uno crea una rama crea un branche del ultimo commit que basicamente es una copia y todos los cambios que hagamos 
 en esta rama no los vamos a ver la rama master hasta que los fucionemos con un proceso que se llama merge
+
+clase 16 fusion de ramas con git merge 
+el comando git commit -am "nombre_del_archivo" : realiza un add al archivo y un commit al mismo tiempo
