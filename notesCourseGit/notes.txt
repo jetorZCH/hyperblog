@@ -151,4 +151,5 @@ cuando uno crea una rama crea un branche del ultimo commit que basicamente es un
 en esta rama no los vamos a ver la rama master hasta que los fucionemos con un proceso que se llama merge
 
 clase 16 fusion de ramas con git merge 
-el comando git commit -am "nombre_del_archivo" : realiza un add al archivo y un commit al mismo tiempo
+git commit -am "nombre_del_archivo" : realiza un add al archivo y un commit al mismo tiempo
+git branch: indica cuantas ramas hay y en que rama estas
