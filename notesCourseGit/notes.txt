@@ -153,3 +153,6 @@ en esta rama no los vamos a ver la rama master hasta que los fucionemos con un p
 clase 16 fusion de ramas con git merge 
 git commit -am "nombre_del_archivo" : realiza un add al archivo y un commit al mismo tiempo
 git branch: indica cuantas ramas hay y en que rama estas
+
+clase 17 conflictos al hacer un merge
+git merge nombre_de_la branch:comvina las ramas 
