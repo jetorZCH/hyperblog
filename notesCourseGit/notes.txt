@@ -159,7 +159,8 @@ git merge nombre_de_la branch:combina las ramas
 
 GitHub
 clase 19 
-con el comando, git pull origin master mandas las actualizaciones de un proyecto a github o inversa
+con el comando, git pull origin master mandas las actualizaciones de un proyecto en github a tu repositorio local
+y con el comando git push origine master mandas las actualizaciones de tu repositorio a github
 A continuacion unas instrucciones de la clase para mandar un repositorio a git GitHub
 GitHub es una plataforma que nos permite guardar repositorios de Git que podemos usar como servidores remotos y ejecutar algunos comandos de forma visual e interactiva (sin necesidad de la consola de comandos).
 
@@ -185,3 +186,18 @@ Si queremos conectar el repositorio de GitHub con nuestro repositorio local, que
       ----git pull origin master --allow-unrelated-histories
 4. Por último, ahora sí podemos hacer git push para guardar los cambios de nuestro repositorio local en GitHub:
       ----git push origin master
+
+clase 20
+Las llaves publicas y privadas 
+
+Las llaves públicas y privadas, conocidas también como cifrado asimétrico de un solo camino, sirven para mandar mensajes privados entre varios nodos con la lógica de que firmas tu mensaje con una llave pública vinculada con una llave privada que puede leer el mensaje.
+
+Las llaves públicas y privadas nos ayudan a cifrar y descifrar nuestros archivos de forma que los podamos compartir sin correr el riesgo de que sean interceptados por personas con malas intenciones.
+
+Cómo funciona un mensaje cifrado con llaves públicas y privadas
+Ambas personas deben crear su llave pública y privada.
+Ambas personas pueden compartir su llave pública a las otras partes (recuerda que esta llave es pública, no hay problema si la “interceptan”).
+La persona que quiere compartir un mensaje puede usar la llave pública de la otra persona para cifrar los archivos y asegurarse que solo puedan ser descifrados con la llave privada de la persona con la que queremos compartir el mensaje.
+El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados.
+La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos.
+Nota: puedes compartir tu llave pública, pero nunca tu llave privada.
