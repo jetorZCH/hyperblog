@@ -321,3 +321,6 @@ Traer el repositorio remoto
 git pull origin master
 Ejecutar el cambio
 git push --set-upstream origin master
+
+Clase 26 Flujo de trabajo profesional: Haciendo merge de ramas de desarrollo a master
+
